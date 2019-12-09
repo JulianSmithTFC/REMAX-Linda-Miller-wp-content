@@ -1,0 +1,663 @@
+/*
+Theme Name: GeneratePress Child
+Theme URI: https://generatepress.com
+Template: generatepress
+Author: Tom Usborne
+Author URI: https://tomusborne.com
+Description: GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 15kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com
+Tags: two-columns,three-columns,one-column,right-sidebar,left-sidebar,footer-widgets,blog,e-commerce,flexible-header,full-width-template,buddypress,custom-header,custom-background,custom-menu,custom-colors,sticky-post,threaded-comments,translation-ready,rtl-language-support,featured-images,theme-options
+Version: 2.3.2.1568079430
+Updated: 2019-09-10 01:37:10
+
+*/
+
+/*------------HOME PAGE-------------*/
+
+/*Block One*/
+.home-blockOne-container{
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.home-blockOne-header{
+    color: #fff;
+    font-weight: bolder;
+}
+.home-blockOne-button{
+    background-color: #d80822 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-bottom: 30px !important;
+}
+
+/*Block Two*/
+.home-blockTwo-container{
+    margin-top: -70px;
+}
+.home-blockTwo-containerLeft{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+.home-blockTwo-containerRight{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+.home-blockTwo-headers{
+    color: #84898d;
+    font-weight: bold;
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+}
+.home-blockTwo-hrlines{
+    background-color: #004597;
+    height: 2px;
+    max-width: 115px;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+}
+.home-blockTwo-image{
+    margin-bottom: 20px;
+}
+.home-blockTwo-subheadingLeft{
+    color: #004597;
+    font-weight: bold;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+}
+.home-blockTwo-bodyTextLeft{
+    color: #000 !important;
+    line-height: normal;
+    font-size: 14px;
+    margin-bottom: 10px !important;
+}
+.home-blockTwo-buttonLeft{
+    color: #004597 !important;
+    background: #ffffff !important;
+    border-bottom: #004597 !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 3px !important;
+    font-size: 12px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.home-blockTwo-button{
+    background-color: #004597 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+.home-blockTwo-bodyTextRight{
+    color: #000;
+    font-weight: bolder;
+}
+.home-blockTwo-subheadingRight{
+    color: #004597;
+    font-weight: bold;
+}
+.home-blockTwo-icons{
+    color: #d80822;
+}
+.home-blockTwo-contactInfo{
+    color: #000;
+    word-wrap: break-word;
+}
+.home-blockTwo-buttonRight{
+    background-color: #d80822 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+
+/*Block Three*/
+.home-blockThree-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #e0e0e0;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.home-blockThree-containerLeft{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home-blockThree-containerRight{
+    background-position: center center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.home-blockThree-heading{
+    color: #004597;
+    font-weight: bolder;
+}
+.home-blockThree-bodyText{
+    color: #000;
+}
+.home-blockThree-logo{
+    max-width: 150px;
+}
+.home-blockThree-button{
+    background-color: #d80822 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: 15px !important;
+}
+
+
+/*------------SERVICES PAGE-------------*/
+
+/*Block One*/
+.services-blockOne-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services-blockOne-header{
+    color: #004597;
+    font-weight: bolder;
+}
+.services-blockOne-hrLines{
+    background-color: #004597;
+    height: 2px;
+    max-width: 160px;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+}
+.services-blockOne-bodyText{
+    padding-left: 20px;
+}
+
+/*Block Two*/
+.services-blockTwo-container{
+    background-image: url('http://techfusionproject2.com/wp-content/uploads/2019/09/background-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services-blockTwo-header{
+    color: #d80822;
+    font-weight: bold;
+    font-size: 25px !important;
+}
+.services-blockTwo-containers{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.services-blockTwo-subheading{
+    color: #004597;
+    font-weight: bold;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+}
+.services-blockTwo-hrLines{
+    background-color: #004597;
+    height: 2px;
+    max-width: 160px;
+    margin-top: 5px !important;
+    margin-bottom: 20px !important;
+}
+.services-blockTwo-bodyTexts{
+    padding-left: 20px;
+    color: #000000;
+}
+
+/*Block Three*/
+.services-blockThree-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services-blockThree-header{
+    color: #d80822;
+    font-weight: bold;
+    font-size: 25px !important;
+}
+.services-blockThree-containers{
+    padding: 20px 20px 20px 20px;
+}
+.services-blockThree-containerLeft{
+    margin-top: 160px;
+}
+.services-blockThree-containerMiddle{
+    margin-top: 80px;
+}
+.services-blockThree-containerRight{
+
+}
+
+.services-blockThree-containerMargin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.services-blockThree-headings{
+    color: #004597;
+    font-weight: bold;
+    font-size: 18px !important;
+    text-decoration: underline;
+}
+.services-blockThree-bodyText{
+    color: #84898d;
+}
+.services-blockThree-buttons {
+    background-color: #d80822 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+
+/*------------MEET LINDA PAGE-------------*/
+
+/*Block One*/
+.meet-blockOne-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.meet-blockOne-containerLeft{
+    padding: 20px 20px 20px 20px;
+}
+.meet-blockOne-containerRight{
+    padding: 20px 20px 20px 20px;
+}
+.meet-blockOne-header{
+    color: #d80822;
+    font-weight: bolder;
+}
+.meet-blockOne-subheader{
+    color: #000000;
+    font-weight: bolder;
+}
+.meet-blockOne-icons{
+
+}
+.meet-blockOne-contactInfo{
+    font-size: 20px !important;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.meet-blockOne-hrline{
+    background-color: #84898d;
+    height: 2px;
+    margin-bottom: 20px !important;
+}
+.meet-blockOne-profileImage{
+    margin: 15px 15px 15px 15px;
+}
+.meet-blockOne-profileHeader{
+    color: #004597;
+    font-weight: bold;
+}
+.meet-blockOne-profileButton{
+    background-color: #d80822 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+
+/*------------ABOUT PAGE-------------*/
+
+
+
+/*Block One & Two*/
+.about-blockOneTwo-container{
+    background-image: url('http://techfusionproject2.com/wp-content/uploads/2019/09/background-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.about-blockOneTwo-header{
+    color: #004597;
+    font-weight: bolder;
+}
+.about-blockOneTwo-hrline{
+    background-color: #004597;
+    height: 2px;
+    max-width: 115px;
+    margin-top: 10px !important;
+}
+
+/*Block One*/
+.about-blockOne-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-blockOne-bodyText{
+    color: #000000;
+}
+
+/*Block Two*/
+.about-blockTwo-container{
+    padding-bottom: 60px;
+}
+.about-blockTwo-containerLeft{
+    padding-bottom: 20px;
+    text-align: left;
+}
+.about-blockTwo-containerRight{
+
+}
+.about-blockTwo-bodyText{
+    color: #000000;
+}
+.about-blockTwo-button{
+    color: #004597 !important;
+    border-bottom: #004597 !important;
+    background: #ffffff !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 3px !important;
+    font-size: 12px !important;
+    font-weight: bolder !important;
+}
+.about-blockTwo-image{
+    margin: 20px 20px 20px 20px;
+}
+.about-blockTwo-title{
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+
+/*Block Three*/
+.about-blockThree-container{
+    background-color: #f5f5f5;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.about-blockThree-containers{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-blockThree-header{
+    color: #d80822;
+    font-weight: bolder;
+    margin-bottom: 30px !important;
+}
+.about-blockThree-headers{
+    color: #004597;
+    font-weight: bold;
+}
+.about-blockThree-hrlines{
+    background-color: #004597;
+    height: 2px;
+    max-width: 125px;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+.about-blockThree-whotext{
+    margin-bottom: 5px !important;
+    color: #000000;
+    font-weight: bold;
+}
+.about-blockThree-bodyText{
+    color: #000000;
+}
+.about-blockThree-image{
+    margin: 15px 15px 15px 15px;
+}
+.about-blockThree-imageTitle{
+    margin-left: 15px;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+/*Block Four*/
+.about-blockFour-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-blockFour-containerLeft{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-blockFour-containerRight{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-blockFour-headers{
+    color: #d80822;
+    font-weight: bolder;
+    font-size: 25px !important;
+    margin-bottom: 10px !important;
+}
+.about-blockFour-subheaders{
+    color: #878c90;
+}
+.about-blockFour-contactContainers{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-blockFour-contactContainerLeft{
+    background-color: #e0e0e0;
+}
+.about-blockFour-contactContainerRight{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.about-blockFour-contactInnerContainerRight{
+    padding: 15px 15px 15px 15px;
+    background: #ffffff;
+}
+.about-blockFour-contactIcons{
+    color: #004597;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-blockFour-contactLables{
+    color: #878c90;
+    margin-bottom: 5px !important;
+}
+.about-blockFour-contactText{
+    color: #004597;
+    margin-bottom: 5px !important;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.about-blockFour-formContainer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ffffff;
+}
+.about-blockFour-formInputs{
+
+}
+.about-blockFour-formButton{
+    background-color: #004597 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+
+/*------------CONTACT PAGE-------------*/
+
+/*Block One*/
+.contact-blockOne-container{
+    background-image: url('http://techfusionproject2.com/wp-content/uploads/2019/09/background-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-blockOne-button{
+    background-color: #d80822 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: 50px !important;
+}
+
+/*------------PROPERTIES LISTING PAGE-------------*/
+
+/*Block One*/
+.propertie-blockOne-container{
+    padding-bottom: 30px;
+}
+.propertie-blockOne-heading{
+    color: #000000;
+    font-weight: bolder;
+}
+.propertie-blockOne-menu-ul{
+    margin-left: 0px !important;
+}
+.propertie-blockOne-menu-li{
+
+}
+.propertie-blockOne-buttons{
+    color: #000000 !important;
+    border: #84898d !important;
+    border-radius: 15px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+}
+.propertie-blockOne-buttonActive{
+    color: #ffffff !important;
+    border: #84898d !important;
+    border-radius: 15px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    background: #84898d !important;
+}
+
+/*Block Two*/
+.propertie-blockTwo-container{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.propertie-blockTwo-tab-active{
+    background: #84898d !important;
+    color: #ffffff !important;
+}
+.propertie-blockTwo-tab-normal{
+    color: #000000 !important;
+}
+
+
+
+/*------------Header-------------*/
+.header{
+    background-color: #f5f5f5 !important;
+}
+.header-container{
+    background-color: #004597;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.header-header{
+    color: #ffffff;
+    font-weight: bolder;
+}
+.header-breadcrumbs, a {
+    color: #ffffff;
+}
+
+.menu-noFloat{
+    float: none !important;
+}
+
+/*------------Footer-------------*/
+/*Block One*/
+.footer-blockOne-container{
+    background-color: #84898d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-blockOne-header{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px !important;
+}
+.footer-blockOne-subheader{
+    color: #ffffff;
+}
+
+/*Block Two*/
+.footer-blockTwo-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f5f5f5;
+}
+
+/*Footer Areas*/
+.footer-headers{
+    color: #84898d;
+    text-align: left;
+    font-size: 16px !important;
+    font-weight: bolder;
+}
+.footer-hrlines{
+    background-color: #004597;
+    height: 2px;
+    max-width: 160px;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+}
+}
+.footer-bodyTexts{
+    color: #84898d !important;
+    font-size: 14px !important;
+}
+.footer-icons{
+    color: #004597;
+}
+.footer-contactInfo{
+    color: #84898d;
+    word-wrap: break-word;
+}
+
+/*Block Three*/
+.footer-blockThree-container{
+    background-color: #004597;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.footer-copyright{
+    color: #ffffff;
+}
+.footer-copyrightIcon{
+    color: #ffffff;
+}
+.footer-menu{
+    margin-left: 0px !important;
+}
+.footer-menuItems{
+    color: #ffffff;
+    margin: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-fix {
+    height: 100%;
+}
